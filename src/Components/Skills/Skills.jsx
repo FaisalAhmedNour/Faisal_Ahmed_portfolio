@@ -30,10 +30,10 @@ const Skills = () => {
             ></SectionTItle>
             {/* <hr className="border-black my-4" /> */}
             <p className="text-center text-[#adb9c9] my-1">I possess a transformative range of skills, pushing boundaries and redefining what&apos;s possible.</p>
-            <div className="grid grid-cols-2 gap-10 text-[#adb9c9] mt-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-[#adb9c9] mt-10">
                 <div className="bg-[#212428] p-8 rounded-lg" data-aos="fade-right">
                     <h4 className="text-lg ml-4 mb-5 uppercase">Primary Skills on</h4>
-                    <div className="grid grid-cols-4 gap-4 mb-10">
+                    <div className="grid grid-cols-3 md:grid-cols-4 gap-4 mb-10">
                         <div className="w-[100px] py-2 shadow-lg bg-[#212428] rounded-md mx-auto" data-aos="zoom-in">
                             <img className="w-[45px] mx-auto" src={htmlIcon} alt="" />
                             <p className="text-center mt-2 text-sm">HTML</p>
@@ -86,7 +86,7 @@ const Skills = () => {
                 </div>
                 <div className="bg-[#212428] p-8 rounded-lg" data-aos="fade-left">
                     <h4 className="text-lg ml-4 mb-5 uppercase">Secondary Skills on</h4>
-                    <div className="grid grid-cols-4 gap-4 mb-10">
+                    <div className="grid grid-cols-3 md:grid-cols-4 gap-4 mb-10">
                         <div className="w-[100px] py-2 shadow-lg bg-[#212428] rounded-md mx-auto" data-aos="zoom-in">
                             <img className="w-[45px] mx-auto" src={BootstrapIcon} alt="" />
                             <p className="text-center mt-2 text-sm">Bootstrap</p>

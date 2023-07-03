@@ -19,24 +19,24 @@ export default function ContactForm() {
 
     return (
         <form onSubmit={sendEmail} ref={form} className="mt-8 mb-2">
-            <div className="mb- gap-6 grid grid-cols-2">
+            <div className="mb- gap-6 grid grid-cols-1 md:grid-cols-2">
                 <div>
                     <label htmlFor="name" className="uppercase block mb-3 font-light text-md text-[#92afbd]">Your Name</label>
                     <input type="text" name="from_name" className="shadow-inner shadow-[#25282cee] border border-[#191b1e] text-[#92afbd] font-light text-md p-5 rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full bg-[#191b1e] shadow-sm-light" required />
                 </div>
                 <div>
                     <label htmlFor="number" className="uppercase block mb-3 font-light text-md text-[#92afbd]">Phone Number</label>
-                    <input type="number" name="from_phone" className="shadow-inner shadow-[#25282cee] border border-[#191b1e] text-[#92afbd] font-light text-md p-5 rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full bg-[#191b1e] shadow-sm-light" required />
+                    <input type="text" name="from_phone" className="shadow-inner shadow-[#25282cee] border border-[#191b1e] text-[#92afbd] font-light text-md p-5 rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full bg-[#191b1e] shadow-sm-light" required />
                 </div>
-                <div className="col-span-2">
+                <div className="col-span-1 md:col-span-2">
                     <label htmlFor="email" className="uppercase block mb-3 font-light text-md text-[#92afbd]">Email</label>
                     <input type="email" name="from_email" className="shadow-inner shadow-[#25282cee] border border-[#191b1e] text-[#92afbd] font-light text-md p-5 rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full bg-[#191b1e] shadow-sm-light" required />
                 </div>
-                <div className="col-span-2">
+                <div className="col-span-1 md:col-span-2">
                     <label htmlFor="subject" className="uppercase block mb-3 font-light text-md text-[#92afbd]">Subject</label>
                     <input type="text" name="subject" className="shadow-inner shadow-[#25282cee] border border-[#191b1e] text-[#92afbd] font-light text-md p-5 rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full bg-[#191b1e] shadow-sm-light" required />
                 </div>
-                <div className="col-span-2">
+                <div className="col-span-1 md:col-span-2">
                     <label htmlFor="massage" className="uppercase block mb-3 font-light text-md text-[#92afbd]">Message</label>
                     <textarea type="text" name="message" rows="8" className="shadow-inner shadow-[#25282cee] border border-[#191b1e] text-[#92afbd] font-light text-md p-5 rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full bg-[#191b1e] shadow-sm-light" required />
                 </div>

@@ -25,7 +25,7 @@ const Projects = () => {
                     onMouseOut={() => setIsHover1(false)}
                     className={`flex flex-col bg-[#212428] text-[#adb9c9] rounded-lg`}
                 >
-                    <div className="grid grid-cols-2">
+                    <div className="grid grid-cols-1 md:grid-cols-2">
                         <div className="p-5">
                             <h3 className="text-4xl mt-16 mb-5">CampSportopia</h3>
                             <p className="mb-5 mt-1">I built a full stack Summer Sports Camp site. There students can enroll different courses and Instructors can bring their courses to the students to enroll. For ensuring the proper standards of quality, I implemented a course approval process. By allowing admins to review and curate course submissions, maintaining a curated selection of courses for students</p>
@@ -76,7 +76,7 @@ const Projects = () => {
                     onMouseOut={() => setIsHover2(false)}
                     className={`flex flex-col bg-[#212428] text-[#adb9c9] rounded-lg my-10`}
                 >
-                    <div className="grid grid-cols-2">
+                    <div className="grid  grid-cols-1 md:grid-cols-2">
                         <div className="p-5">
                             <h3 className="text-4xl mt-16 mb-5">Dish World</h3>
                             <p className="mb-5 mt-1">????? I built a full stack Summer Sports Camp site. There students can enroll different courses and Instructors can bring their courses to the students to enroll. For ensuring the proper standards of quality, I implemented a course approval process. By allowing admins to review and curate course submissions, maintaining a curated selection of courses for students</p>
@@ -123,9 +123,9 @@ const Projects = () => {
                     data-aos="fade-up"
                     onMouseOver={() => setIsHover3(true)}
                     onMouseOut={() => setIsHover3(false)}
-                    className={`flex flex-col bg-[#212428] text-[#adb9c9] rounded-lg`}
+                    className="flex flex-col bg-[#212428] text-[#adb9c9] rounded-lg"
                 >
-                    <div className="grid grid-cols-2">
+                    <div className="grid  grid-cols-1 md:grid-cols-2">
                         <div className="p-5">
                             <h3 className="text-4xl mt-16 mb-5">Legal Solution</h3>
                             <p className="mb-5 mt-1">????? I built a full stack Summer Sports Camp site. There students can enroll different courses and Instructors can bring their courses to the students to enroll. For ensuring the proper standards of quality, I implemented a course approval process. By allowing admins to review and curate course submissions, maintaining a curated selection of courses for students</p>

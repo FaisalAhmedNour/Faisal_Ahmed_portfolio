@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
     return (
-        <div className="text-[#c4cfde] grid grid-cols-2 mt-16">
-            <div className="grid grid-cols-1 gap-5 py-10 pl-20">
+        <div className="text-[#c4cfde] grid grid-cols-1 md:grid-cols-2 mt-16">
+            <div className="grid grid-cols-1 gap-5 py-10 pl-20 order-2 md:order-1">
                 <h1 className="text-5xl font-[600]" data-aos="fade-up">Hi, I&#39;m Faisal Ahmed</h1>
                 <h2 className="text-3xl" data-aos="fade-up" data-aos-delay="500">I am a <span className="text-[#e20146]">Web developer</span></h2>
                 <div className="flex gap-10" data-aos="fade-up" data-aos-delay="1000">
@@ -39,7 +39,7 @@ const Banner = () => {
                     </Link>
                 </div>
             </div>
-            <div data-aos="fade-left">
+            <div className="order-1 md:order-2" data-aos="fade-left">
                 <img 
                     className="mx-auto w-[50%] rounded-full border-8 border-[#e20146]" 
                 src={image} alt="" 

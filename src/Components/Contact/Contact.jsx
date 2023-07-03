@@ -9,8 +9,8 @@ const Contact = () => {
             <SectionTItle
                 title='Contact With Me'
             ></SectionTItle>
-            <div className="grid grid-cols-3 gap-10 my-10">
-                <div className="p-8 bg-[#212428] rounded-lg text-[#e4e6ea]" data-aos="fade-right">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-10 my-10">
+                <div className="p-8 bg-[#212428] rounded-lg text-[#e4e6ea] mb-10 md:mb-0" data-aos="fade-right">
                     <img className="rounded-lg" src={img} alt="" />
                     <h2 className="text-3xl font-bold mt-8">Faisal Ahmed</h2>
                     <h4 className="text-xl text-[#92afbd] my-5">Web developer</h4>
