@@ -6,9 +6,9 @@ const Banner = () => {
     return (
         <div className="text-[#c4cfde] grid grid-cols-2 mt-16">
             <div className="grid grid-cols-1 gap-5 py-10 pl-20">
-                <h1 className="text-5xl font-[600]">Hi, I&#39;m Faisal Ahmed</h1>
-                <h2 className="text-3xl">I am a <span className="text-[#e20146]">Web developer</span></h2>
-                <div className="flex gap-10">
+                <h1 className="text-5xl font-[600]" data-aos="fade-up">Hi, I&#39;m Faisal Ahmed</h1>
+                <h2 className="text-3xl" data-aos="fade-up" data-aos-delay="500">I am a <span className="text-[#e20146]">Web developer</span></h2>
+                <div className="flex gap-10" data-aos="fade-up" data-aos-delay="1000">
                     <Link to='https://github.com/FaisalAhmedNour'>
                         <div className="w-[60px] py-2 shadow-lg rounded-md text-center cursor-pointer">
                             <i className="fa-brands fa-github text-2xl mt-3"></i>
@@ -25,7 +25,7 @@ const Banner = () => {
                         </div>
                     </Link>
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-delay="1500">
                     <Link to='https://drive.google.com/file/d/1VtzqaGiE5XmGijwfoGNNW9IbSFaILdkO/view' target="blank">
                         <Button
                             size="lg"
@@ -39,7 +39,7 @@ const Banner = () => {
                     </Link>
                 </div>
             </div>
-            <div>
+            <div data-aos="fade-left">
                 <img 
                     className="mx-auto w-[50%] rounded-full border-8 border-[#e20146]" 
                 src={image} alt="" 

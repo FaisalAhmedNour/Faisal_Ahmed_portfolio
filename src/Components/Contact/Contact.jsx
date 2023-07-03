@@ -10,7 +10,7 @@ const Contact = () => {
                 title='Contact With Me'
             ></SectionTItle>
             <div className="grid grid-cols-3 gap-10 my-10">
-                <div className="p-8 bg-[#212428] rounded-lg text-[#e4e6ea]">
+                <div className="p-8 bg-[#212428] rounded-lg text-[#e4e6ea]" data-aos="fade-right">
                     <img className="rounded-lg" src={img} alt="" />
                     <h2 className="text-3xl font-bold mt-8">Faisal Ahmed</h2>
                     <h4 className="text-xl text-[#92afbd] my-5">Web developer</h4>
@@ -36,7 +36,7 @@ const Contact = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="col-span-2 px-8 pb-5 bg-[#212428] rounded-lg">
+                <div className="col-span-2 px-8 pb-5 bg-[#212428] rounded-lg" data-aos="fade-left">
                     <ContactForm></ContactForm>
                 </div>
             </div>

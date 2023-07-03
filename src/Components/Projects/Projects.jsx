@@ -20,6 +20,7 @@ const Projects = () => {
             <p className="text-center text-[#adb9c9] my-1">Empowered by my web development skills, I build immersive online worlds that captivate and engage.</p>
             <div className="mt-10">
                 <div
+                    data-aos="fade-up"
                     onMouseOver={() => setIsHover1(true)}
                     onMouseOut={() => setIsHover1(false)}
                     className={`flex flex-col bg-[#212428] text-[#adb9c9] rounded-lg`}
@@ -45,7 +46,7 @@ const Projects = () => {
                             <div className="mt-10">
                                 <Link to='https://github.com/FaisalAhmedNour/CampSportopia' target="block"><Button className="rounded-md mr-3 bg-[#cc0643]">Clint side</Button></Link>
                                 <Link to='https://github.com/FaisalAhmedNour/CampSportopia_server' target="block"><Button className="rounded-md mr-3 bg-[#cc0643]">server Site</Button></Link>
-                                
+
                             </div>
                         </div>
                         <div className="p-5">
@@ -54,16 +55,23 @@ const Projects = () => {
                     </div>
                     {
                         isHover1 && <Link to='https://campsportopia.web.app/' target="block">
-                            <Button size="sm" variant="outlined" className="flex items-center gap-3 text-[#cc0643] border-[#cc0643] mb-5 mx-auto">
+                            <Button
+                                size="sm"
+                                variant="outlined"
+                                className="flex items-center gap-3 text-[#cc0643] border-[#cc0643] mb-5 mx-auto"
+                                data-aos="fade-down"
+                                data-aos-offset="30"
+                            >
                                 Live Link
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
                                 </svg>
                             </Button>
-                            </Link>
+                        </Link>
                     }
                 </div>
                 <div
+                    data-aos="fade-up"
                     onMouseOver={() => setIsHover2(true)}
                     onMouseOut={() => setIsHover2(false)}
                     className={`flex flex-col bg-[#212428] text-[#adb9c9] rounded-lg my-10`}
@@ -87,7 +95,7 @@ const Projects = () => {
                             <div className="mt-10">
                                 <Link to='https://github.com/FaisalAhmedNour/Dish_World_client' target="block"><Button className="rounded-md mr-3 bg-[#cc0643]">Clint side</Button></Link>
                                 <Link to='https://github.com/FaisalAhmedNour/Dish_Client_server' target="block"><Button className="rounded-md mr-3 bg-[#cc0643]">server Site</Button></Link>
-                                
+
                             </div>
                         </div>
                         <div className="p-5">
@@ -96,7 +104,13 @@ const Projects = () => {
                     </div>
                     {
                         isHover2 && <Link to='https://dish-world.web.app/' target="block">
-                            <Button size="sm" variant="outlined" className="flex items-center gap-3 text-[#cc0643] border-[#cc0643] mb-5 mx-auto">
+                            <Button
+                                size="sm"
+                                variant="outlined"
+                                data-aos="fade-down"
+                                data-aos-offset="30"
+                                className="flex items-center gap-3 text-[#cc0643] border-[#cc0643] mb-5 mx-auto"
+                            >
                                 Live Link
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
@@ -106,6 +120,7 @@ const Projects = () => {
                     }
                 </div>
                 <div
+                    data-aos="fade-up"
                     onMouseOver={() => setIsHover3(true)}
                     onMouseOut={() => setIsHover3(false)}
                     className={`flex flex-col bg-[#212428] text-[#adb9c9] rounded-lg`}
@@ -130,7 +145,12 @@ const Projects = () => {
                     </div>
                     {
                         isHover3 && <Link to='https://comforting-truffle-59d75f.netlify.app/' target="block">
-                            <Button size="sm" variant="outlined" className="flex items-center gap-3 text-[#cc0643] border-[#cc0643] mb-5 mx-auto">
+                            <Button
+                                size="sm"
+                                variant="outlined"
+                                className="flex items-center gap-3 text-[#cc0643] border-[#cc0643] mb-5 mx-auto" data-aos="fade-down"
+                                data-aos-offset="30"
+                            >
                                 Live Link
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
