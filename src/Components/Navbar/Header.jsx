@@ -20,7 +20,7 @@ function NavList() {
         <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1">
             <Typography
                 as="a"
-                href="#"
+                href="#skills"
                 color="white"
                 className="font-normal text-lg"
             >
@@ -31,7 +31,7 @@ function NavList() {
             </Typography>
             <Typography
                 as="a"
-                href="#"
+                href="#projects"
                 color="white"
                 className="font-normal text-lg"
             >
@@ -45,7 +45,7 @@ function NavList() {
             </Typography>
             <Typography
                 as="a"
-                href="#"
+                href="#contact"
                 color="white"
                 className="font-normal text-lg"
             >
@@ -69,7 +69,7 @@ export default function Header() {
     }, []);
 
     return (
-        <Navbar className="px-4 py-4 mr-0 max-w-full bg-[#202327] border-none my-4 shadow-xl">
+        <Navbar className="px-4 py-4 mr-0 max-w-full bg-[#202327] border-none my-4 shadow-xl sticky top-0 z-10">
             <div className="flex items-center justify-between text-blue-gray-900">
                 <Typography
                     as="a"
@@ -87,6 +87,7 @@ export default function Header() {
                     <Button variant="gradient" size="md">
                         Hire Me
                     </Button>
+                    {/* dark / light button */}
                     {/* <Button variant="text" size="sm" color="blue-gray">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
