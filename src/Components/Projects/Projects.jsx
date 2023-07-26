@@ -79,7 +79,7 @@ const Projects = () => {
                     <div className="grid  grid-cols-1 md:grid-cols-2">
                         <div className="p-5">
                             <h3 className="text-4xl mt-16 mb-5">Dish World</h3>
-                            <p className="mb-5 mt-1">????? I built a full stack Summer Sports Camp site. There students can enroll different courses and Instructors can bring their courses to the students to enroll. For ensuring the proper standards of quality, I implemented a course approval process. By allowing admins to review and curate course submissions, maintaining a curated selection of courses for students</p>
+                            <p className="mb-5 mt-1">It is a food reviewing web site. Where chefs can add their food recipes. And a user can review chefs, view their details and foods added by them. An user can be registered via email or Google and Github sign-in. And a blog page to publish articles or posts from the chefs.</p>
                             <div>
                                 <Button size="sm" className="rounded-full mr-3 bg-[#2c92eb75] mb-3">React</Button>
                                 <Button size="sm" className="rounded-full mr-3 bg-[#2c92eb75] mb-3">React Router</Button>
@@ -128,7 +128,7 @@ const Projects = () => {
                     <div className="grid  grid-cols-1 md:grid-cols-2">
                         <div className="p-5">
                             <h3 className="text-4xl mt-16 mb-5">Legal Solution</h3>
-                            <p className="mb-5 mt-1">????? I built a full stack Summer Sports Camp site. There students can enroll different courses and Instructors can bring their courses to the students to enroll. For ensuring the proper standards of quality, I implemented a course approval process. By allowing admins to review and curate course submissions, maintaining a curated selection of courses for students</p>
+                            <p className="mb-5 mt-1">It is a legal solution site. It is fully responsive. There is a header section and then the practice area where users can see the fields on which the site works. There is a review section where users can see previous clients review.</p>
                             <div>
                                 <Button size="sm" className="rounded-full mr-3 bg-[#2c92eb75]">HTML</Button>
                                 <Button size="sm" className="rounded-full mr-3 bg-[#2c92eb75]">CSS</Button>
